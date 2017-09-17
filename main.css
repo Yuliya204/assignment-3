@@ -1,0 +1,131 @@
+html {
+	background-color: white;
+}
+body  {
+	font-family: "Times New Roman", Times, serif;
+	width: 1200px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4e391+0,b4e391+52,61c419+99&1+0,0.7+100 */
+    background: -moz-linear-gradient(left, rgba(180,227,145,1) 0%, rgba(180,227,145,0.84) 52%, rgba(97,196,25,0.7) 99%, rgba(97,196,25,0.7) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(180,227,145,1) 0%,rgba(180,227,145,0.84) 52%,rgba(97,196,25,0.7) 99%,rgba(97,196,25,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(180,227,145,1) 0%,rgba(180,227,145,0.84) 52%,rgba(97,196,25,0.7) 99%,rgba(97,196,25,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b361c419',GradientType=1 ); /* IE6-9 */
+	margin: 20px; 
+	padding: 20px;
+	border: 3px solid black;
+	box-shadow: 0 9px 18px 9px;
+}
+.about-me table, th, td {
+   border: 2px solid blue;
+}
+.about-me h2 {
+	font-size: 200%;
+	font-family: "Imprint MT Shadow", Imprint, serif;
+}
+.about-me h1 {
+	color: orange;
+	font-size: 300%;
+	text-align: center;
+	font-style: italic;
+	font-family: Script MT Bold;
+}
+.about-me h2, h3 {
+	display: inline-block;
+}
+.about-me h1, h2, h3
+{
+	margin: 0px;
+}
+.about-me .education
+{
+	border: 1px solid black;
+	margin-left:20 px;
+	margin-bottom: 20px;
+}
+.about-me .year
+{
+	display:inline-block;
+	width: 140px;
+	border-right: 1px solid black;
+}
+.about-me .college
+{
+	display:inline-block;
+	width: 450px;
+	border-right: 1px solid black;
+}
+.about-me .degree
+{
+	display:inline-block;
+}
+
+
+.about-me p {
+	width: 800px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: Times New Roman;
+	font-style: italic;
+}
+
+/* unvisited link */
+.about-me a:link {
+    color: red;
+}
+
+/* visited link */
+.about-me a:visited {
+    color: green;
+}
+
+/* mouse over link */
+.about-me a:hover {
+    color: hotpink;
+}
+
+.about-me .mydog-image
+{
+	width: 200px;
+	height: 200px;
+	border: 3px solid red;
+	background-image: url("MyDog.jpg");
+	background-size: 200px 200px;
+}
+
+.about-me .mydog-image h3
+{
+	color: white;
+}
+.about-me .mydog-image-highlight
+{
+	border: 2px solid green;
+	box-shadow: 6px 3px 6px 3px;
+	background-image: url('MyDog.jpg');
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+	margin-left: 60px;
+}
+.about-me .list-item-highlight
+{
+	font-weight: bold;
+	color: blue;
+	box-shadow: 0 3px 6px 3px;
+	width: 200px;
+}
+.about-me ul li {
+	color: red; 
+    padding: 10px;
+	font-style: italic;
+}
+.about-me .footer
+{
+}
+
+footer {
+	text-align: center;
+	color: blue;
+}
+footer button {
+	color: red;
+}

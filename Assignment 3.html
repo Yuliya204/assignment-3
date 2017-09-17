@@ -1,0 +1,87 @@
+<HTML>
+
+<HEAD>
+	<link rel="stylesheet" href="main.css">
+  <title>Yuliya Savchenko</title>
+</HEAD>
+
+<BODY>
+    
+	<script src="scripts.js"></script>
+
+    <div class="about-me">
+    <h1>HELLO HELLO!</h1>
+	<h2>My name is Yuliya Savchenko</h2>
+	<h3>(Similar to Julia in the U.S.)</h3>
+	
+	
+	<p>
+	Originally,I from Ukraine, but I have been living in the United States for 4.5 years. Also, I lived in Spain for two years that is a great experience for me.
+	I knew new culture, new language and new people.
+	</p> 
+	<h3>My Education</h3>
+	<div class="education">
+	<div class="educ">
+	<div class="year">1995-2000</div>
+	<div class="college">National University of Life and Environmental Sciences of Ukraine</div>
+	<div class="degree">Specialist Degree in Finance that is equal to Master Degree in the U.S</div>
+	</div>
+	<div class="educ">
+	<div class="year">2016</div>
+	<div class="college">Hondros College of Business</div>
+	<div class="degree">Licence in Real Estate</div>
+	</div>
+	<div class="educ">
+	<div class="year">2016-current</div>
+	<div class="college">Cuyahoga Commuity College</div>
+	<div class="degree">Getting an Associate Degree in Programming and Development</div>
+	</div>
+	</div>
+	
+	  <br>
+	  <br>
+	  <p> Currently, I am working as a Real Estate Agent in Howard Hanna and as a leasing specialist at Polo Club Apartments in Strongsville</p>
+	
+	<p>
+	   Couple years ago, my husband started his business here. He remodels houses, and I help him to sell them.
+       You can go to	   
+	   <a href="https://www.zillow.com/homes/for_sale/33684380_zpid/41.485868,-81.546257,41.469727,-81.582821_rect/14_zm/1_sch/1_fr/?view=public">Zillow.com</a>
+	   and check his recent work!
+	</p>
+	
+	
+    <p>
+	   A year ago, we adopted a dog. This is a Lab mix, and his name is Preston.He is a favorite in our family!
+	</p>
+	
+
+	<div class="MyDog-image" onclick="ToggleMyDogImageHighlight()"><h3>Click Me!</h3></div>
+	<p>
+	I do not have enough time for my hobbies, but I like</p>
+	<ul>
+		   <li onmouseover="MouseOverListItem(this)" onmouseout="MouseOutListItem(this)">Embroidering</li>
+		   <li onmouseover="MouseOverListItem(this)" onmouseout="MouseOutListItem(this)">Traveling</li>
+		   <li onmouseover="MouseOverListItem(this)" onmouseout="MouseOutListItem(this)">Hiking with my family</li>
+		  
+    </ul>
+	<input type="text" onchange="TextInputChanged(this)" />
+	<div class="footer">Sign The Guestbook!</div>
+	</div>
+	 <FOOTER>
+   <p>
+      <p>Click the button to display the date.</p>
+
+<button onclick="displayDate()">The time is?</button>
+
+<script>
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+}
+</script>
+
+<p id="demo"></p>
+	  </p>
+	<p>&copy; 2017 Yuliya Savchenko</p>
+  </FOOTER>
+</BODY>
+</HTML>
